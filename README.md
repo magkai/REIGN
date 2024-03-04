@@ -8,7 +8,7 @@ This repository contains the code and data for our WSDM'24 full paper. Our metho
 to increase the robustness of ConvQA models. It strengthens the model's *training* by exposing it upfront to a larger variety of intent-preserving surface forms for the same training sample.
 We proprose a reinforcement learning model based on Deep-Q networks that is used as a means for *model-specific data augmentation*: it learns to select only the top-*k* reformulations that would be used for additional training data for the QA model for maximum performance improvement.
 
-<center><img src="example.png" alt="Overview of the REIGN framework" width=80%></center>
+<center><img src="example.png" alt="Overview of the REIGN framework" width=100%></center>
 
 *Example showing the main processing steps in REIGN: Predicting most suitable reformulation categories (defined by our reformulation taxonmoy) based on QA performance metrics and generating reformulations for predicted categories (RG).*
 
