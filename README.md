@@ -9,6 +9,7 @@ to increase the robustness of ConvQA models. It strengthens the model's *trainin
 We proprose a reinforcement learning model based on Deep-Q networks that is used as a means for *model-specific data augmentation*: it learns to select only the top-*k* reformulations that would be used for additional training data for the QA model for maximum performance improvement.
 
 <center><img src="example.png" alt="Overview of the REIGN framework" width=80%></center>
+
 *Example showing the main processing steps in REIGN: Predicting most suitable reformulation categories (defined by our reformulation taxonmoy) based on QA performance metrics and generating reformulations for predicted categories (RG).*
 
 For more details see our paper: [Robust Training for Conversational Question Answering Models via Reinforced Reformulation Generation](https://arxiv.org/pdf/2310.13505.pdf) and visit our project website: https://reign.mpi-inf.mpg.de.
