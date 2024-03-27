@@ -4,7 +4,7 @@ source REIGN_ENV/bin/activate
 
 RUN_NAME="rcs/results/convquestions/seed/reign_explaignn/"
 
-REWARD=$1
+REWARD="rrd"
 EVALFILENAME="rg/BART/out/convquestions/seed/question_info_trainset.pickle"
 CHECKPOINTAS=$RUN_NAME"checkpoints-AS/"
 CHECKPOINTASLOAD="rcs/results/convmix/reign_explaignn/checkpoints-AS/" #load rcs trained on convmix and evaluate on convquestions only

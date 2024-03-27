@@ -8,6 +8,13 @@ wget http://qa.mpi-inf.mpg.de/reign/data/data.zip
 unzip data.zip 
 rm data.zip
 
+#get kg labels
+cd data
+mkdir -p kg
+cd kg
+wget http://qa.mpi-inf.mpg.de/reign/data/labels.json
+cd ../../
+
 #download gpt test data processed
 wget http://qa.mpi-inf.mpg.de/reign/data/gpt_data.zip
 unzip gpt_data.zip 
@@ -47,6 +54,11 @@ mkdir -p _data
 wget http://qa.mpi-inf.mpg.de/reign/data/qa/explaignn/_data.zip
 unzip _data.zip 
 rm _data.zip
+
+mkdir -p _intermediate_representations
+wget http://qa.mpi-inf.mpg.de/reign/data/qa/explaignn/_intermediate_representations.zip
+unzip _intermediate_representations.zip 
+rm _intermediate_representations.zip
 
 
 echo "Successfully downloaded data!"

@@ -21,7 +21,6 @@ parser.add_argument("--refoption", dest="ref_option", default="")
 args = parser.parse_args()
 
 
-data_type = args.data_type
 file_name = args.filename
 if args.store_path == "":
     store_path = file_name

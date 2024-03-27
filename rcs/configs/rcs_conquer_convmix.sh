@@ -6,7 +6,7 @@ source REIGN_ENV/bin/activate
 RUN_NAME="rcs/results/convmix/reign_conquer/"
 
 QAEVALDATA="qa/CONQUER/results/convmix/conquer/initialQA_gold_answers.json"
-REWARD=$1
+REWARD="rrd"
 REFFILE=$RUN_NAME$REWARD"_reward.json"
 CHECKPOINTAS=$RUN_NAME"checkpoints-AS/"
 FILENAME="rg/BART/out/convmix/question_info_devset.pickle"

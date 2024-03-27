@@ -4,9 +4,9 @@ source REIGN_ENV/bin/activate
 
 RUN_NAME="rcs/results/convmix/reign_explaignn/"
 
-QAEVALDATA="qa/EXPLAIGNN/_intermediate_representations/explaignn_rewarding/sr_reign/rers/kb/explaignn/res_explaignn_rewarding_gold_answers.json"
+QAEVALDATA="qa/EXPLAIGNN/_intermediate_representations/convmix/explaignn_rewarding/sr_reign/rers/kb/explaignn/res_explaignn_rewarding_gold_answers.json"
 
-REWARD=$1
+REWARD="rrd"
 REFFILE=$RUN_NAME$REWARD"_reward.json"
 CHECKPOINTAS=$RUN_NAME"checkpoints-AS/"
 FILENAME="rg/BART/out/convmix/question_info_devset.pickle"

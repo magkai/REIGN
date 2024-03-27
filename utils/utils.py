@@ -2,7 +2,7 @@ import json
 import re
 
 
-with open("kb/dicts/labels.json", "r") as labelFile:
+with open("data/kg/labels.json", "r") as labelFile:
     labels_dict = json.load(labelFile)
 
 def hasNumber(string):
